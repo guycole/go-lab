@@ -1,5 +1,4 @@
 /Users/gsc/go/src/github.com/guycole/go-lab/project1
 gsc@duckman:54>go mod init github.com/guycole/go-lab/project1
 go: creating new go.mod: module github.com/guycole/go-lab/project1
-gsc@duckman:55>vi notes.txt
 
