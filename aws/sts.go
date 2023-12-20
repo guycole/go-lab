@@ -11,12 +11,9 @@ import (
 )
 
 func main() {
-
-	// need service account
-
 	ctx := context.TODO()
 
-	cfg, err := config.LoadDefaultConfig(ctx, config.WithRegion("us-west-2"), config.WithSharedConfigProfile("terraform_funny"))
+	cfg, err := config.LoadDefaultConfig(ctx, config.WithRegion("us-west-2"), config.WithSharedConfigProfile("guydev"))
 	if err != nil {
 		log.Fatal(err)
 	}
