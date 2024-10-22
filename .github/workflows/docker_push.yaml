@@ -9,7 +9,6 @@ env:
 
 jobs:
   docker:
-    # always build and package
     runs-on: ubuntu-latest
   
     steps:
